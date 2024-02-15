@@ -1,3 +1,29 @@
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100%;
+    background-color: #eeeeee;
+    box-shadow: 0 0 1px rgba(0, 0, 0);
+}
+.menu ul li {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.menu-lateral label {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.conteudo {
+    margin-left: 140px;
+}
+
 @font-face {
     font-family: Consolas;
     src: url(fonts/consolas.ttf);
@@ -13,7 +39,7 @@ html{
 }
 
 body{
-    background-color: #F4F4F4;
+    background-color: #181818;
     font-family: Consolas;
 }
 
@@ -58,7 +84,7 @@ h5{
     padding-bottom: 14px;
 }
 
-.gradient{
+.gradiente{
     background-color: #F93A3A;
     background-image: linear-gradient(-4deg, #F93A3A 0%, #3A4EA4 100%);
     background-size: 100%;
